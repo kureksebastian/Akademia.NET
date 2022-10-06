@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,23 +11,61 @@ namespace Calculator
     public class Program
     {
         static void Main(string[] args)
-        {    
-            int number = 23423;
-            double numberBig = 123123.34;
-            decimal amount = 31.12M;
-            bool isReady = false;
-            string name = "My name";
-            char sign = 'c';
-            DateTime today = new DateTime(2022, 9, 1, 12, 0, 0);
+        {
+            try
+            {
+                Console.WriteLine("Podaj swoje imię.");
+                var name = Console.ReadLine();
 
-            List<int> lista = new List<int> { 1, 2, 3 };
-            lista.Add(4);
-            Console.WriteLine(lista[0]);
+                Console.WriteLine("Podaj swoje miejsce urodznie.");
+                var placeOfBirth = Console.ReadLine();
 
-            List<string> stringLista = new List<string> { "one" };
+                Console.WriteLine("Podaj rok urodzenia");
+                var year = GetInput();
 
+                Console.WriteLine("Podaj miesiąc urodzenie.");
+                var month = GetInput();
 
-            Console.ReadKey();
+                Console.WriteLine("Podaj dzień urodzin.");
+                var day = GetInput();
+
+                var age = CalculateAge(year, month, day); 
+
+                Console.WriteLine($"Cześć {name} urodziłeś się w {placeOfBirth} i masz {age} lat");          
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.ReadKey();
+            }
+        }
+
+        private static int CalculateAge(int year, int month, int day)
+        {
+            var now = DateTime.Now;
+           
+            if (month < now.Month)
+            {
+                return now.Year - year - 1;
+            }
+            else if (month == now.Month && day < now.Day)
+            {
+                return now.Year - year - 1;
+            }
+            else
+            {
+                return now.Year - year;
+            }                
+        }
+
+        private static int GetInput()
+        {
+            if (!int.TryParse(Console.ReadLine(), out int number))
+                throw new Exception("Podana wartość jest niepoprawna");
+            return number;           
         }
     }
 }
