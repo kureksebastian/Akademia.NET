@@ -5,9 +5,11 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{99C69EF7-ABE7-48EB-B5FD-120BEDEAE238}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week1", "Week1", "{42033A86-8E59-4289-BB6C-BE3E6334BDEF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week3", "Week3", "{42033A86-8E59-4289-BB6C-BE3E6334BDEF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindNumberGame", "FindNumberGame\FindNumberGame.csproj", "{9DECEEE1-B0ED-4061-B7ED-B672F0BC5628}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week4", "Week4", "{D91BF09D-3639-4AEF-AE43-9D8BFEEC46FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,7 +31,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{99C69EF7-ABE7-48EB-B5FD-120BEDEAE238} = {42033A86-8E59-4289-BB6C-BE3E6334BDEF}
-		{9DECEEE1-B0ED-4061-B7ED-B672F0BC5628} = {42033A86-8E59-4289-BB6C-BE3E6334BDEF}
+		{9DECEEE1-B0ED-4061-B7ED-B672F0BC5628} = {D91BF09D-3639-4AEF-AE43-9D8BFEEC46FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE9B1BF9-2CC7-4EC8-B43C-1772F3AF515C}
