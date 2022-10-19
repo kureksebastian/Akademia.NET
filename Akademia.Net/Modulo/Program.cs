@@ -4,7 +4,6 @@ while (true)
     try
     {
         var number = GetInput();
-        Calculate(number);
 
         if (Calculate(number))
             Console.WriteLine("Liczba parzysta");
@@ -23,10 +22,13 @@ while (true)
 static bool Calculate(int number)
 {
     var result = number % 2;
-    if(result == 0)
-        return true;
-    else
-        return false;
+
+    //if(result == 0)
+    //    return true;
+    //else
+    //    return false;
+
+    return result == 0;
 }
 
  static int GetInput()
