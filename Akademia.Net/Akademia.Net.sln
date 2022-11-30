@@ -19,6 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week5", "Week5", "{E11E445D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsDiary", "StudentsDiary\StudentsDiary.csproj", "{9B23CC75-E1BE-413A-9130-61012D944213}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week6", "Week6", "{1C41A45D-4037-4025-8642-F0F80666C683}"
+	ProjectSection(SolutionItems) = preProject
+		HomeWork.sql = HomeWork.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
