@@ -22,6 +22,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week6", "Week6", "{1C41A45D-4037-4025-8642-F0F80666C683}"
 	ProjectSection(SolutionItems) = preProject
 		HomeWork.sql = HomeWork.sql
+		..\..\..\Users\kurek\Documents\Documents\SQL Server Management Studio\Week6CreateDatabase.sql = ..\..\..\Users\kurek\Documents\Documents\SQL Server Management Studio\Week6CreateDatabase.sql
 	EndProjectSection
 EndProject
 Global
