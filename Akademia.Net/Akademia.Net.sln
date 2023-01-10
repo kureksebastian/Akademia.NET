@@ -25,6 +25,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week6", "Week6", "{1C41A45D
 		..\..\..\Users\kurek\Documents\Documents\SQL Server Management Studio\Week6CreateDatabase.sql = ..\..\..\Users\kurek\Documents\Documents\SQL Server Management Studio\Week6CreateDatabase.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week7", "Week7", "{2582E4C4-F0CC-4E19-94D6-CEC088B6B66A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diary", "Diary\Diary.csproj", "{34382DEB-5D14-426C-A3DC-50EEFB9C368B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{9B23CC75-E1BE-413A-9130-61012D944213}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B23CC75-E1BE-413A-9130-61012D944213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B23CC75-E1BE-413A-9130-61012D944213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34382DEB-5D14-426C-A3DC-50EEFB9C368B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34382DEB-5D14-426C-A3DC-50EEFB9C368B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34382DEB-5D14-426C-A3DC-50EEFB9C368B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34382DEB-5D14-426C-A3DC-50EEFB9C368B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +69,7 @@ Global
 		{5D1745B0-F4CE-4A7A-90CF-979C89288FF6} = {D91BF09D-3639-4AEF-AE43-9D8BFEEC46FC}
 		{2E70B821-9A16-4E08-BF43-9B51328665B9} = {D91BF09D-3639-4AEF-AE43-9D8BFEEC46FC}
 		{9B23CC75-E1BE-413A-9130-61012D944213} = {E11E445D-781E-4533-907C-0D9262520680}
+		{34382DEB-5D14-426C-A3DC-50EEFB9C368B} = {2582E4C4-F0CC-4E19-94D6-CEC088B6B66A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE9B1BF9-2CC7-4EC8-B43C-1772F3AF515C}
